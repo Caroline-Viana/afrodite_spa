@@ -1,0 +1,160 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+  color: #522e2e;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #D3756B;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #522e2e;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #FFC3A1;
+  opacity: 0.6;
+  border-radius: 30px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #D3756B;
+  font-weight: 500;
+}
+
+.servicos {
+  margin: 80px;
+}
+.servicos h3 {
+  font-size: 1.2rem;
+  color: #D3756B;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 1rem;
+  text-align: center;
+}
+.servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+}
+.servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+.servicos .cards .card h5 {
+  font-size: 2rem;
+  margin: 25px 0 20px 0;
+  font-weight: 500;
+}
+.servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #D3756B;
+}
+.servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+.cupom {
+  background-color: #D3756B;
+  padding: 4rem;
+  text-align: center;
+}
+.cupom .texto h2 {
+  font-size: 2.1428571429rem;
+  margin: 2rem;
+}
+.cupom .input input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 18px;
+  outline-color: #FFC3A1;
+}
+.cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #522e2e;
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.cupom button:hover {
+  background-color: #FFC3A1;
+  transition: 1s;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #522e2e;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #D3756B, #F0997D, #FFC3A1);
+}
+footer i {
+  color: red;
+}
+
+.comentario {
+  display: flex;
+  width: 80%;
+  margin: 3rem auto;
+  align-items: center;
+  gap: 3rem;
+}
+.comentario__imagem {
+  width: 400px;
+}
+.comentario h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #F0997D;
+}
+.comentario h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+.comentario p {
+  line-height: 1.5rem;
+}/*# sourceMappingURL=estilo.css.map */
